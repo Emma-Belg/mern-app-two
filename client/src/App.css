@@ -9,7 +9,11 @@
 }
 
 .flex-child {
+    margin: 10px;
     flex-grow: 1;
+    background-color: #73b3f8;
+    border-radius: 8px;
+    max-width: 530px;
 }
 
 form {
@@ -20,6 +24,7 @@ form {
 
 .form-input {
     margin: 0 10px 10px 0;
+    padding: 0 10px;
     min-width: 220px;
 }
 
@@ -46,11 +51,12 @@ button {
 }
 
 .blog-posts {
+    margin: 10px;
     padding: 15px;
     display: flex;
     flex-direction: column;
     flex-grow: 2;
-    background-color: #73b3f8;
+    background-color: #c8e1fc;
     border-radius: 8px;
 }
 
@@ -59,7 +65,7 @@ button {
     padding: .375rem .75rem;
     min-width: 220px;
     max-width: 1200px;
-    border: 1px solid #007bff;
+    border: 1px solid #73b3f8;
     border-radius: 5px;
     justify-content: center;;
 }
