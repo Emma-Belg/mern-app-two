@@ -80,7 +80,8 @@ class App extends React.Component {
         return (
             <div className='app'>
                 <h2>Welcome to the App</h2>
-                <div className='flex-container'>
+                <div className='flex-parent-container'>
+                    <div className='flex-child'>
                         <form onSubmit={this.submit}>
                             <div className='form-input'>
                                 <input type='text'
@@ -100,6 +101,8 @@ class App extends React.Component {
                             </div>
                             <button>Submit</button>
                         </form>
+                    </div>
+                    <br />
                         <div className="blog-posts">
                             {this.displayBlogPosts(this.state.posts)}
                         </div>
